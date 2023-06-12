@@ -1,0 +1,21 @@
+{
+    "name": "sagar-danej/mycustompackage",
+    "description": "Just for learning purpose",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sagar Danej"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "mycustompackage\\App\\": "src"
+        }
+    }
+    
+}
+
